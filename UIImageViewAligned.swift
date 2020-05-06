@@ -5,7 +5,8 @@
 //  MIT License.
 //
 
-#if canImport(UIKit)
+#if os(iOS)
+import UIKit
 
 public struct UIImageViewAlignmentMask: OptionSet {
     public let rawValue: Int
