@@ -5,7 +5,7 @@
 //  MIT License.
 //
 
-import UIKit
+#if canImport(UIKit)
 
 public struct UIImageViewAlignmentMask: OptionSet {
     public let rawValue: Int
@@ -255,3 +255,4 @@ open class UIImageViewAligned: UIImageView {
         return self.alignment.contains(alignment)
     }
 }
+#endif
